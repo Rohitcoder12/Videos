@@ -1,0 +1,10 @@
+{
+  "_id": 123456789, // User's Telegram ID
+  "first_name": "John",
+  "is_premium": false,
+  "daily_video_count": 0,
+  "last_access_date": "2023-10-27",
+  "points": 0,             // <-- New: To store user's points
+  "referral_count": 0,     // <-- New: To count successful referrals
+  "referred_by": null      // <-- New: To track who referred this user
+}
